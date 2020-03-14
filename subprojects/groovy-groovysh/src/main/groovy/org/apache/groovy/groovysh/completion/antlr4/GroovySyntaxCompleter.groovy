@@ -19,8 +19,8 @@
 package org.apache.groovy.groovysh.completion.antlr4
 
 import groovy.transform.TupleConstructor
-import jline.console.completer.Completer
-import jline.internal.Configuration
+import org.jline.console.completer.Completer
+import org.jline.internal.Configuration
 import org.antlr.v4.runtime.CharStream
 import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.CommonTokenStream

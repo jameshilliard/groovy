@@ -18,7 +18,7 @@
  */
 package org.apache.groovy.groovysh.util
 
-import jline.console.completer.Completer
+import org.jline.console.completer.Completer
 import org.codehaus.groovy.runtime.InvokerHelper
 
 /**

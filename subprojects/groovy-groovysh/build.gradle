@@ -22,7 +22,7 @@ dependencies {
     implementation project(':groovy-templates')
     implementation project(':groovy-xml')
     testImplementation project(':groovy-test')
-    implementation("jline:jline:$jlineVersion") {
+    implementation("org.jline:jline:$jlineVersion") {
         exclude(group: 'junit', module: 'junit')
     }
 }

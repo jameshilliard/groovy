@@ -19,13 +19,13 @@
 package org.apache.groovy.groovysh.completion
 
 import groovy.transform.CompileStatic
-import jline.console.completer.ArgumentCompleter
-import jline.console.completer.ArgumentCompleter.ArgumentDelimiter
-import jline.console.completer.ArgumentCompleter.ArgumentList
-import jline.console.completer.Completer
-import jline.internal.Log
+import org.jline.console.completer.ArgumentCompleter
+import org.jline.console.completer.ArgumentCompleter.ArgumentDelimiter
+import org.jline.console.completer.ArgumentCompleter.ArgumentList
+import org.jline.console.completer.Completer
+import org.jline.internal.Log
 
-import static jline.internal.Preconditions.checkNotNull
+import static org.jline.internal.Preconditions.checkNotNull
 
 /**
  * This fixes strict jline 2.12 ArgumentCompleter

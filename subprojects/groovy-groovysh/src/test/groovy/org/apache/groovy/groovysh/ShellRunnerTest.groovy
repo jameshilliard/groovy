@@ -20,8 +20,8 @@ package org.apache.groovy.groovysh
 
 import groovy.mock.interceptor.MockFor
 import groovy.test.GroovyTestCase
-import jline.console.ConsoleReader
-import jline.console.completer.CandidateListCompletionHandler
+import org.jline.console.ConsoleReader
+import org.jline.console.completer.CandidateListCompletionHandler
 import org.codehaus.groovy.tools.shell.IO
 import org.codehaus.groovy.tools.shell.util.Preferences
 

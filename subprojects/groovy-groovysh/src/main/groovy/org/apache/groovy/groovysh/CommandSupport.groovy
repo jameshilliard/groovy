@@ -18,10 +18,10 @@
  */
 package org.apache.groovy.groovysh
 
-import jline.console.completer.Completer
-import jline.console.completer.NullCompleter
-import jline.console.completer.StringsCompleter
-import jline.console.history.FileHistory
+import org.jline.console.completer.Completer
+import org.jline.console.completer.NullCompleter
+import org.jline.console.completer.StringsCompleter
+import org.jline.console.history.FileHistory
 import org.apache.groovy.groovysh.completion.StricterArgumentCompleter
 import org.codehaus.groovy.tools.shell.IO
 import org.codehaus.groovy.tools.shell.util.Logger

@@ -19,7 +19,7 @@
 package org.apache.groovy.groovysh.commands
 
 import groovy.console.ui.ObjectBrowser
-import jline.console.completer.Completer
+import org.jline.console.completer.Completer
 import org.apache.groovy.groovysh.CommandSupport
 import org.apache.groovy.groovysh.Groovysh
 import org.apache.groovy.groovysh.util.SimpleCompleter

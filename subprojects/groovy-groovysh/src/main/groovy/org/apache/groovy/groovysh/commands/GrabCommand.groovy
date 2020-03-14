@@ -19,7 +19,7 @@
 package org.apache.groovy.groovysh.commands
 
 import groovy.grape.Grape
-import jline.console.completer.Completer
+import org.jline.console.completer.Completer
 import org.codehaus.groovy.tools.GrapeUtil
 import org.apache.groovy.groovysh.CommandSupport
 import org.apache.groovy.groovysh.Groovysh

@@ -20,10 +20,10 @@ package org.apache.groovy.groovysh
 
 import groovy.cli.internal.CliBuilderInternal
 import groovy.cli.internal.OptionAccessor
-import jline.TerminalFactory
-import jline.UnixTerminal
-import jline.UnsupportedTerminal
-import jline.WindowsTerminal
+import org.jline.TerminalFactory
+import org.jline.UnixTerminal
+import org.jline.UnsupportedTerminal
+import org.jline.WindowsTerminal
 import org.apache.groovy.groovysh.util.NoExitSecurityManager
 import org.codehaus.groovy.control.CompilerConfiguration
 import org.codehaus.groovy.tools.shell.IO

@@ -18,8 +18,8 @@
  */
 package org.apache.groovy.groovysh.commands
 
-import jline.console.completer.Completer
-import jline.console.completer.FileNameCompleter
+import org.jline.console.completer.Completer
+import org.jline.console.completer.FileNameCompleter
 import org.apache.groovy.groovysh.CommandSupport
 import org.apache.groovy.groovysh.Groovysh
 

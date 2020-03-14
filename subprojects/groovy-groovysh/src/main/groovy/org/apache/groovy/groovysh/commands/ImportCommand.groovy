@@ -19,10 +19,10 @@
 package org.apache.groovy.groovysh.commands
 
 import groovy.transform.CompileStatic
-import jline.console.completer.AggregateCompleter
-import jline.console.completer.Completer
-import jline.console.completer.NullCompleter
-import jline.console.completer.StringsCompleter
+import org.jline.console.completer.AggregateCompleter
+import org.jline.console.completer.Completer
+import org.jline.console.completer.NullCompleter
+import org.jline.console.completer.StringsCompleter
 import org.apache.groovy.groovysh.CommandSupport
 import org.apache.groovy.groovysh.Evaluator
 import org.apache.groovy.groovysh.Groovysh

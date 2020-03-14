@@ -18,11 +18,11 @@
  */
 package org.apache.groovy.groovysh
 
-import jline.console.ConsoleReader
-import jline.console.completer.AggregateCompleter
-import jline.console.completer.CandidateListCompletionHandler
-import jline.console.completer.CompletionHandler
-import jline.console.history.FileHistory
+import org.jline.console.ConsoleReader
+import org.jline.console.completer.AggregateCompleter
+import org.jline.console.completer.CandidateListCompletionHandler
+import org.jline.console.completer.CompletionHandler
+import org.jline.console.history.FileHistory
 import org.apache.groovy.groovysh.completion.FileNameCompleter
 import org.apache.groovy.groovysh.util.WrappedInputStream
 import org.codehaus.groovy.tools.shell.IO

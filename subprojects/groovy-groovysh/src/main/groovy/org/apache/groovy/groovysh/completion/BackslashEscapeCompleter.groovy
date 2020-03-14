@@ -18,9 +18,9 @@
  */
 package org.apache.groovy.groovysh.completion
 
-import jline.console.completer.Completer
+import org.jline.console.completer.Completer
 
-import static jline.internal.Preconditions.checkNotNull
+import static org.jline.internal.Preconditions.checkNotNull
 
 /**
  * A completer within compatible strings (single/double quotes, single/double triple quotes)

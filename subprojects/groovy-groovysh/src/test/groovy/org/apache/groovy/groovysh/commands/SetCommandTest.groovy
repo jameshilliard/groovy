@@ -18,7 +18,7 @@
  */
 package org.apache.groovy.groovysh.commands
 
-import jline.console.completer.Completer
+import org.jline.console.completer.Completer
 import org.apache.groovy.groovysh.Groovysh
 import org.apache.groovy.groovysh.util.PackageHelper
 import org.codehaus.groovy.tools.shell.util.Preferences

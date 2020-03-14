@@ -19,9 +19,9 @@
 package org.apache.groovy.groovysh
 
 import groovy.transform.CompileStatic
-import jline.Terminal
-import jline.WindowsTerminal
-import jline.console.history.FileHistory
+import org.jline.Terminal
+import org.jline.WindowsTerminal
+import org.jline.console.history.FileHistory
 import org.apache.groovy.groovysh.commands.LoadCommand
 import org.apache.groovy.groovysh.commands.RecordCommand
 import org.apache.groovy.groovysh.util.DefaultCommandsRegistrar

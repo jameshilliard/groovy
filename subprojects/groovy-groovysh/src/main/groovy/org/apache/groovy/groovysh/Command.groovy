@@ -19,7 +19,7 @@
 package org.apache.groovy.groovysh
 
 import groovy.transform.CompileStatic
-import jline.console.completer.Completer
+import org.jline.console.completer.Completer
 
 /**
  * Provides the interface required for command extensions.

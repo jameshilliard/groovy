@@ -18,7 +18,7 @@
  */
 package org.apache.groovy.groovysh.commands
 
-import jline.console.history.History
+import org.jline.console.history.History
 import org.apache.groovy.groovysh.ComplexCommandSupport
 import org.apache.groovy.groovysh.Groovysh
 import org.apache.groovy.groovysh.util.SimpleCompleter

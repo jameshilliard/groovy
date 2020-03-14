@@ -19,7 +19,7 @@
 package org.apache.groovy.groovysh
 
 import groovy.transform.CompileStatic
-import jline.TerminalFactory
+import org.jline.TerminalFactory
 
 import java.util.concurrent.Callable
 

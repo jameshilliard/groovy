@@ -18,7 +18,7 @@
  */
 package org.apache.groovy.groovysh.commands
 
-import jline.console.completer.Completer
+import org.jline.console.completer.Completer
 import org.apache.groovy.groovysh.CommandException
 import org.apache.groovy.groovysh.ComplexCommandSupport
 

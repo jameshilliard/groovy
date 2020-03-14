@@ -19,8 +19,8 @@
 package org.apache.groovy.groovysh
 
 import groovy.test.GroovyTestCase
-import jline.console.completer.Completer
-import jline.console.history.FileHistory
+import org.jline.console.completer.Completer
+import org.jline.console.history.FileHistory
 import org.codehaus.groovy.tools.shell.IO
 import org.apache.groovy.groovysh.commands.DocCommand
 import org.apache.groovy.groovysh.commands.EditCommand

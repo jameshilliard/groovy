@@ -19,9 +19,9 @@
 package org.apache.groovy.groovysh.completion
 
 import groovy.transform.PackageScope
-import jline.internal.Configuration
+import org.jline.internal.Configuration
 
-import static jline.internal.Preconditions.checkNotNull
+import static org.jline.internal.Preconditions.checkNotNull
 
 /**
  * A file name completer takes the buffer and issues a list of
@@ -41,7 +41,7 @@ import static jline.internal.Preconditions.checkNotNull
  *
  * @since 2.3
  */
-class FileNameCompleter extends jline.console.completer.FileNameCompleter {
+class FileNameCompleter extends org.jline.console.completer.FileNameCompleter {
     private static final boolean OS_IS_WINDOWS = Configuration.isWindows()
     private final GroovyShell gs = new GroovyShell()
 

@@ -18,7 +18,7 @@
  */
 package org.apache.groovy.groovysh
 
-import jline.console.completer.Completer
+import org.jline.console.completer.Completer
 import org.apache.groovy.groovysh.util.SimpleCompleter
 
 /**

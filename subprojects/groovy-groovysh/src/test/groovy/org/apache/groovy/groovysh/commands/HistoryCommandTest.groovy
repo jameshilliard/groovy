@@ -18,7 +18,7 @@
  */
 package org.apache.groovy.groovysh.commands
 
-import jline.console.history.FileHistory
+import org.jline.console.history.FileHistory
 import org.apache.groovy.groovysh.CompleterTestSupport
 import org.apache.groovy.groovysh.Groovysh
 

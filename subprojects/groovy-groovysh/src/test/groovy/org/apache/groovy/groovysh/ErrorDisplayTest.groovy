@@ -18,8 +18,8 @@
  */
 package org.apache.groovy.groovysh
 
-import jline.console.ConsoleReader
-import jline.console.completer.CandidateListCompletionHandler
+import org.jline.console.ConsoleReader
+import org.jline.console.completer.CandidateListCompletionHandler
 
 class ErrorDisplayTest extends ShellRunnerTestSupport {
 
